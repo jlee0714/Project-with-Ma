@@ -17,7 +17,7 @@ public class PlayerControl : MonoBehaviour
     [Header("Rotation")]
     public float mouse_sp = 5f;
     float xRotation, yRotation;
-    private readonly float AngleLimit = 45f;
+    private readonly float AngleLimit = 60f;
 
     private Camera cam;
 
